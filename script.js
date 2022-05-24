@@ -1,7 +1,7 @@
 var Name = new Array()
 Name[1] = "Aelish";
 Name[2] = "Johnson";
-Name[3] = "jolly";
+Name[3] = "Jolly";
 Name[4] = "Mahak";
 Name[5] = "DJ";
 Name[6] = "Hukum";
@@ -12,7 +12,7 @@ Name[10] = "Jack";
 
 for(var i = 1; i<11; i++){
     if (Name[i].charAt(0) == "j" || Name[i].charAt(0) == "J") {
-        console.log("Goodbye J"+Name[i]);
+        console.log("Goodbye "+Name[i]);
     }
     else{
         console.log("Hello "+ Name[i]);
